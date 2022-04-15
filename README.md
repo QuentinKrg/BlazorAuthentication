@@ -1,4 +1,4 @@
-# Blazor Webassembly Custom Authentication
+# Blazor Webassembly Token Authentication
 #### Projet template for any project that uses on premises ressources
 
 This project allows authentication to any services of your choice, like from LDAP or a DB.
