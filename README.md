@@ -1,7 +1,7 @@
 # Blazor Webassembly on premise Authentication
 #### Projet template for any project that uses on premises ressources
 
-This project allows authentication to the AD service and local database verification.
+This project allows authentication to any services of your choice, like from LDAP or a DB.
 
 ## Features
 - Authentication and Authorization with JWT token stored in local storage
@@ -16,8 +16,6 @@ This part describes the configuration elements specific to each project
 
 ## Description
 This diagram describes the operation and the actors of the authentication system at the time of the connection of a user.
-
-![alt text](https://github.loro.swiss/loro/LoroWasmAuthentication/blob/master/WasmAuthentication.drawio.png)
 
 This diagram describes the authorizazion system when an user tries to access a protected page or controller.
 
