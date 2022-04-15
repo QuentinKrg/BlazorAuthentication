@@ -1,0 +1,20 @@
+﻿@inject IAccessTokenService _accessTokenService
+@inject NavigationManager _navigationManager
+
+<AuthorizeView>
+    <Authorized>
+        Hello, @context.User.Identity?.Name!
+        <a @onclick="() => Logout()">Se déconnecter</a>
+    </Authorized>
+    <NotAuthorized>
+        <a href="Login">Se connecter</a>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private async Task Logout()
+    {
+        await _accessTokenService.RemoveAccessTokenAsync("jwt_token");
+        _navigationManager.NavigateTo("/", true);
+    }
+}

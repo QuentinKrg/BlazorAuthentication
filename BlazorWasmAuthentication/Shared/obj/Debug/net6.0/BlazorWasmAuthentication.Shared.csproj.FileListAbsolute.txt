@@ -1,0 +1,11 @@
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\bin\Debug\net6.0\BlazorWasmAuthentication.Shared.deps.json
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\bin\Debug\net6.0\BlazorWasmAuthentication.Shared.dll
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\bin\Debug\net6.0\ref\BlazorWasmAuthentication.Shared.dll
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\bin\Debug\net6.0\BlazorWasmAuthentication.Shared.pdb
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\obj\Debug\net6.0\BlazorWasmAuthentication.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\obj\Debug\net6.0\BlazorWasmAuthentication.Shared.AssemblyInfoInputs.cache
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\obj\Debug\net6.0\BlazorWasmAuthentication.Shared.AssemblyInfo.cs
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\obj\Debug\net6.0\BlazorWasmAuthentication.Shared.csproj.CoreCompileInputs.cache
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\obj\Debug\net6.0\BlazorWasmAuthentication.Shared.dll
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\obj\Debug\net6.0\ref\BlazorWasmAuthentication.Shared.dll
+C:\DEV\BlazorWaspAuth\BlazorWasmAuthentication\Shared\obj\Debug\net6.0\BlazorWasmAuthentication.Shared.pdb

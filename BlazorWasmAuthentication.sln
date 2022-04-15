@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmAuthentication.Server", "BlazorWasmAuthentication\Server\BlazorWasmAuthentication.Server.csproj", "{D1B8066E-C0A1-439F-B672-654A67E03C3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmAuthentication.Client", "BlazorWasmAuthentication\Client\BlazorWasmAuthentication.Client.csproj", "{F7ECE7C6-2DE9-409D-B2B4-CCB92A2DC8E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasmAuthentication.Shared", "BlazorWasmAuthentication\Shared\BlazorWasmAuthentication.Shared.csproj", "{F6F0EA98-D170-4C7E-9488-8D491F96DB14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1B8066E-C0A1-439F-B672-654A67E03C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B8066E-C0A1-439F-B672-654A67E03C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B8066E-C0A1-439F-B672-654A67E03C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B8066E-C0A1-439F-B672-654A67E03C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7ECE7C6-2DE9-409D-B2B4-CCB92A2DC8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7ECE7C6-2DE9-409D-B2B4-CCB92A2DC8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7ECE7C6-2DE9-409D-B2B4-CCB92A2DC8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7ECE7C6-2DE9-409D-B2B4-CCB92A2DC8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F0EA98-D170-4C7E-9488-8D491F96DB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F0EA98-D170-4C7E-9488-8D491F96DB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F0EA98-D170-4C7E-9488-8D491F96DB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F0EA98-D170-4C7E-9488-8D491F96DB14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F7D0C2D-6621-4ABC-AFD9-DF856CFA0D01}
+	EndGlobalSection
+EndGlobal
