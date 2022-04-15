@@ -1,0 +1,49 @@
+﻿@page "/fetchdata"
+
+@inject HttpClient Http
+@inject IWeatherForecastViewModel _weatherForeCastViewModel
+
+@attribute [Authorize(Roles = "DPT_DOSI")]
+
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Weather forecast with Role Verification</h1>
+
+<p>This component demonstrates fetching data from the server and checking role and authorization on the view and server side.</p>
+
+@if (_weatherForeCastViewModel.forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in _weatherForeCastViewModel.forecasts)
+            {
+                <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        // Loading the data on the API. Without a valid token there would not by any data.
+        await _weatherForeCastViewModel.LoadData();
+    }
+}
